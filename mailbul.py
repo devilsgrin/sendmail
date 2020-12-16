@@ -7,7 +7,7 @@ from itertools import chain
 import xlrd
 
 def ExtractNames():
-    file = ("/home/cidamli/Masaüstü/mail/Book.xlsx")
+    file = (your_xlsx_file)
 
     wb = xlrd.open_workbook(file)
     sheet = wb.sheet_by_index(0)
