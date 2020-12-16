@@ -40,12 +40,12 @@ except Exception as e:
     print(Back.RED + Fore.WHITE +  f"Excel dosyasını ararken bir hata meydana geldi ! Lütfen geliştirici ile iletişime geçin ! \n Hata kodu: {e}")
     sys.exit()
 
-<<<<<<< HEAD
+
 def send_mail(gender, mesajlar, subject):
     global msg
-=======
+
 file = ("Book.xlsx")
->>>>>>> 6705a2a3ef6ccadc68fc4062e37a50c513f509a0
+
 
     try:
         msg = MIMEMultipart()
@@ -114,9 +114,9 @@ while gender:
     gender.pop(0)
     firstname.pop(0)
     emails.pop(0)
-<<<<<<< HEAD
+
 
     if not gender:
         break
 =======
->>>>>>> 6705a2a3ef6ccadc68fc4062e37a50c513f509a0
+
